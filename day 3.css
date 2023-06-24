@@ -1,0 +1,76 @@
+body {
+    background-color: #222222;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    top: 50px;
+
+}
+  #container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #trafficLightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #stopLight {
+    background-color: gray;
+  }
+  
+  #readyLight {
+    background-color: gray;
+  }
+  
+  #goLight {
+    background-color: gray;
+  }
+  
+  #buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  button#stopButton {
+    background-color: #ff5555;
+  }
+  
+  button#readyButton {
+    background-color: #ffff55;
+  }
+  
+  button#goButton {
+    background-color: #55ff55;
+  }
+  
